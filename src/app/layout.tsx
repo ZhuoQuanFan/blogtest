@@ -38,9 +38,9 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  applicationName: 'zhangyu.dev',
+  applicationName: 'jasonfzq.top',
   authors: {
-    name: 'zhangyu1818',
+    name: 'ZhuoQuanFan',
     url: 'https://github.com/ZhuoQuanFan',
   },
   creator: 'zhangyu1818',
@@ -58,8 +58,8 @@ export const metadata: Metadata = {
   ],
   publisher: 'zhangyu1818',
   title: {
-    absolute: 'zhangyu.dev',
-    template: '%s | zhangyu.dev',
+    absolute: 'jasonfzq-top',
+    template: '%s | jasonfzq-top',
   },
   verification: {
     google: 'ULSANpODFw1TULe1QTOUFT8z8QXPVIA1MRTMQL7PAbw',

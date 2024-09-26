@@ -213,7 +213,7 @@ export default function Page() {
               <div className='my-4 flex items-center'>
                 <p className='basis-1/4 text-center font-semibold'>Social</p>
                 <div className='grid flex-1 grid-cols-2 justify-items-start gap-2'>
-                  <a href='https://github.com/zhangyu1818'>Github</a>
+                  <a href='https://github.com/ZhuoQuanFan'>Github</a>
                   <a href='https://twitter.com/zhangyu1818'>Twitter</a>
                   <a href='https://juejin.cn/user/4089838986339927'>掘金</a>
                   <a href='https://dev.to/zhangyu1818'>Dev.to</a>

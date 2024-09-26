@@ -27,7 +27,7 @@ export default function Layout() {
         <Tags />
         <Posts />
         <Github />
-        <Juejin />
+        {/*<Juejin />*/}
       </Grid>
     </>
   )

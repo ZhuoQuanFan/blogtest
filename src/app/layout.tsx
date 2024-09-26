@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   applicationName: 'zhangyu.dev',
   authors: {
     name: 'zhangyu1818',
-    url: 'https://github.com/zhangyu1818',
+    url: 'https://github.com/ZhuoQuanFan',
   },
   creator: 'zhangyu1818',
   description:

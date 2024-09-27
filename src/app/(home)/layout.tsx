@@ -12,6 +12,7 @@ import { ThemeToggle } from '@/components/blocks/theme-toggle'
 import { Grid } from '@/components/grid'
 import { Header } from '@/components/header'
 
+import { App } from "@/components/calendar"
 export default function Layout() {
   return (
     <>
@@ -19,6 +20,7 @@ export default function Layout() {
       <Grid>
         <Bio />
         <Avatar />
+        <App />
         <Skills />
         <Pinned />
         <Font />

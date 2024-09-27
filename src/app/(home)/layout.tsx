@@ -11,8 +11,8 @@ import { Tags } from '@/components/blocks/tags'
 import { ThemeToggle } from '@/components/blocks/theme-toggle'
 import { Grid } from '@/components/grid'
 import { Header } from '@/components/header'
+import  App  from '@/components/blocks/calendar'
 
-import { App } from "@/components/calendar"
 export default function Layout() {
   return (
     <>

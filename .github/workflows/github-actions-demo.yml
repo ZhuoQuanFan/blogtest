@@ -2,7 +2,7 @@ name: Deploy on Discussion Create
 
 on:
   discussion:
-    types: [created, edited]
+    types: [created, edited, deleted]
 
 jobs:
   webhook:

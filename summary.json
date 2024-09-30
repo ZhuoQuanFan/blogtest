@@ -1,6 +1,9 @@
 {
+  "1": "Test",
+  "3": "Posing my first blog!",
   "2": "A man leaves his name behind whenever he stays, just as a goose utters its cry whenever it flies.",
   "6": "This article mainly introduce how to deploy this very website, and how to use it.",
+  "7": "Sharing a project that realizes to deploy a ChatGPT on WeChat.",
   "64": "Overview of working with webpack, loader for file and style, plugins, optimization techniques like Tree Shaking and Code Splitting.",
   "65": "Introduction to TypeScript utility types including keyof, in, mapped types, Partial, Required, Readonly, Pick, Record, Exclude, Extract, Omit, NonNullable, Parameters, ConstructorParameters, ReturnType, and InstanceType.",
   "66": "Setting up a Linux VPS with Nginx, domain, SSL, and Trojan for secure web browsing. BBR optimization for Ubuntu.",

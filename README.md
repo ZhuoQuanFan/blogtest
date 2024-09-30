@@ -1,3 +1,35 @@
+# How to deploy your blog website
+
+## Preface
+You can find a video clip made by the first author. https://www.bilibili.com/video/BV15Z421476R/?vd_source=518577cc33ddba54a249125f2efefa3a.
+By watching it, you will be able to find ways of one-click deploying, downloading giscus which is for a comment function and so on. 
+
+## TODO
+1. **one-click deploy.** 
+2. **Create a username/username repository.** Make sure you have created a repository in the format of 'username/username'. For example, the repository I made is named of ZhuoQuanFan/ZhuoQuanFan. This repo is used for generating an introduction of yourself. You can edit it and it will be shown on your homepage of your blog.
+3. **Discussion.** Remember to open discussion funtion of your blog repository. All the discussions will be the blogs content. 
+4. **Be careful about your steps.** You don't need to edit any content in the source code until you succeed in generating the source website. The souce website's name will be Zhangyu.dev, you can make any changes after the website is deployed. Cloning the project to local and make some changes will be commended.
+5. **Domain name.** If you want to make your own domain name to visit your website, you should firstly buy an domain name, and then bind it with your project.  The procedure will be at Vercel：settings-domains.
+6. **Webhook** You can hook the github push actions with the vercel deployment. All you need to do is to generate a series of folds in your project. For example, mkdir '.github/webhooks/discussion-hooked.yml'. You can find a example in my project. Remember to change the url of vercel hook url to your own url.
+7.  **Giscus** If you want to enable comment function, vist giscuss.app. Download it to your github and edit your repository id in the source code. Your can find your repository id by browsing https://docs.github.com/en/graphql/overview/explorer. This link https://iling.me/blog/posts/how-to-get-github-repo-id/ which helped me will help you check out your repoid.
+
+If you have any questions, comment asap and I will do my best to help you.
+
+Best wishes.
+
+
+---
+
+
+
+
+
+
+
+
+
+
+Below are introductions from the primary document.
 # Blog
 
 My personal blog.

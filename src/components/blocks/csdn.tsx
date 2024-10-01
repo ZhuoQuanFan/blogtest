@@ -1,7 +1,7 @@
 import { Block } from '@/components/blocks/block'
 import { ExternalLink } from '@/components/external-link'
 
-export const csdn = () => (
+export const Csdn = () => (
   <Block
     className='group flex items-center justify-center bg-gradient-to-b from-blue-200 to-white text-black dark:from-blue-300/80 dark:to-white/70'
     data-type='about'

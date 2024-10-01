@@ -11,7 +11,7 @@ import { Tags } from '@/components/blocks/tags'
 import { ThemeToggle } from '@/components/blocks/theme-toggle'
 import { Grid } from '@/components/grid'
 import { Header } from '@/components/header'
-import { csdn } from '@/components/blocks/csdn'
+import { Csdn } from '@/components/blocks/csdn'
 export default function Layout() {
   return (
     <>
@@ -27,7 +27,7 @@ export default function Layout() {
         <Tags />
         <Posts />
         <Github />
-        <csdn />
+        <Csdn />
         {/*<Juejin />*/}
       </Grid>
     </>

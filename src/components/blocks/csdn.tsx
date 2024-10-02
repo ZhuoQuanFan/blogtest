@@ -19,7 +19,7 @@ export const Csdn = () => (
       {/*      fillRule='evenodd'>*/}
       {/*  </path>*/}
       {/*</svg>*/}
-      <svg t="1727758467706" className="icon" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg"
+      <svg className="icon" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg"
            p-id="4282"
            width="1em" height="1em">
         <path

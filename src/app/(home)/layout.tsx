@@ -12,6 +12,7 @@ import { ThemeToggle } from '@/components/blocks/theme-toggle'
 import { Grid } from '@/components/grid'
 import { Header } from '@/components/header'
 import { Csdn } from '@/components/blocks/csdn'
+import {Calendar} from "@nextui-org/calendar"
 export default function Layout() {
   return (
     <>
@@ -29,6 +30,7 @@ export default function Layout() {
         <Github />
         <Csdn />
         {/*<Juejin />*/}
+        <Calendar />
       </Grid>
     </>
   )

@@ -24,9 +24,11 @@
     "react-markdown-toc": "latest",
     "tailwind-merge": "^2.5.2",
     "typed.js": "^2.1.0",
-    "use-flip": "^1.0.0"
+    "use-flip": "^1.0.0",
+    "@nextui-org/react": "2.4.8"
   },
   "devDependencies": {
+    "@nextui-org/react": "2.4.8",
     "@next/bundle-analyzer": "^14.2.11",
     "@octokit/core": "^6.1.2",
     "@react-aria/optimize-locales-plugin": "^1.1.1",

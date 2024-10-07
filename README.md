@@ -12,7 +12,7 @@ By watching it, you will be able to find ways of one-click deploying, downloadin
 5. **Domain name.** If you want to make your own domain name to visit your website, you should firstly buy an domain name, and then bind it with your project.  The procedure will be at Vercel：settings-domains.
 6. **Webhook** You can hook the github push actions with the vercel deployment. All you need to do is to generate a series of folds in your project. For example, mkdir '.github/webhooks/discussion-hooked.yml'. You can find a example in my project. Remember to change the url of vercel hook url to your own url.
 7.  **Giscus** If you want to enable comment function, vist giscuss.app. Download it to your github and edit your repository id in the source code. Your can find your repository id by browsing https://docs.github.com/en/graphql/overview/explorer. This link https://iling.me/blog/posts/how-to-get-github-repo-id/ which helped me will help you check out your repoid.
-
+8. **.env** Well, just create this profile ".env", there is no filename of it.
 If you have any questions, comment asap and I will do my best to help you.
 
 Best wishes.

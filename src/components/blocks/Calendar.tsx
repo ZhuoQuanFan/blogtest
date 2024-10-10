@@ -3,7 +3,6 @@ import { Calendar } from 'antd'
 import React from 'react'
 
 import { Block } from '@/components/blocks/block'
-import {clsx} from "clsx";
 
 
 export const CalendarBlock = () => {

@@ -29,7 +29,9 @@ export default function Layout() {
         components: {
           Calendar: {
             /* 这里是你的组件 token */
-            fullPanelBg: '#ffffff',
+            fullBg: 'rgba(0, 0, 0, 0.06)',
+            fullPanelBg: 'rgba(0, 0, 0, 0.06)',
+            itemActiveBg: 'rgba(0, 0, 0, 0.06)',
           },
         },
       }}

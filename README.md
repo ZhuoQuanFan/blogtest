@@ -14,7 +14,14 @@ By watching it, you will be able to find ways of one-click deploying, downloadin
 7.  **Giscus** If you want to enable comment function, vist giscuss.app. Download it to your github and edit your repository id in the source code. Your can find your repository id by browsing https://docs.github.com/en/graphql/overview/explorer. This link https://iling.me/blog/posts/how-to-get-github-repo-id/ which helped me will help you check out your repoid.
 8. **.env** Well, just create this profile ".env", there is no filename of it.
 If you have any questions, comment asap and I will do my best to help you.
-
+9. **Latex supported** To support LaTeX in your post, try to add
+    ```javascript
+      <script
+        async
+        src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML'
+      />
+    ```
+    to **src/app/(article)/layout.tsx**. Then your LaTeX formula will be displayed correctly.
 Best wishes.
 
 

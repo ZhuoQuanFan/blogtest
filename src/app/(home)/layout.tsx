@@ -1,5 +1,5 @@
 // import { Cal } from '@/components/blocks/Calendar'
-import { CalendarBlock} from '@/components/blocks/Calendar';
+import { CalendarBlock } from '@/components/blocks/Calendar'
 import { Avatar } from '@/components/blocks/avatar'
 import { Bio } from '@/components/blocks/bio'
 import { Csdn } from '@/components/blocks/csdn'
@@ -15,6 +15,7 @@ import { Tags } from '@/components/blocks/tags'
 import { ThemeToggle } from '@/components/blocks/theme-toggle'
 import { Grid } from '@/components/grid'
 import { Header } from '@/components/header'
+import { ConfigProvider } from 'antd'
 
 // // import {today, getLocalTimeZone} from "@internationalized/date";
 // import dayjs from 'dayjs'
@@ -23,27 +24,35 @@ import { Header } from '@/components/header'
 
 export default function Layout() {
   return (
-    <>
-      <Header />
-      <Grid>
-        <Bio />
-        <Avatar />
-        <Skills />
-        <Pinned />
-        {/*<Font />*/}
-        {/*<Cal />*/}
-        <CalendarBlock />
-        <Resume />
-        <ThemeToggle />
-        <Tags />
-        <Posts />
-        <Github />
-        <Csdn />
-        {/*<Juejin />*/}
-
-      </Grid>
-
-    </>
-
+    <ConfigProvider
+      theme={{
+        components: {
+          Calendar: {
+            /* 这里是你的组件 token */
+            fullPanelBg: '#ffffff',
+          },
+        },
+      }}
+    >
+      <>
+        <Header />
+        <Grid>
+          <Bio />
+          <Avatar />
+          <Skills />
+          <Pinned />
+          {/*<Font />*/}
+          {/*<Cal />*/}
+          <CalendarBlock />
+          <Resume />
+          <ThemeToggle />
+          <Tags />
+          <Posts />
+          <Github />
+          <Csdn />
+          {/*<Juejin />*/}
+        </Grid>
+      </>
+    </ConfigProvider>
   )
 }

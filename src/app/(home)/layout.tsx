@@ -40,7 +40,8 @@ export default function Layout() {
         token: {
           /* 这里是你的 token */
           colorBgContainer: 'rgba(0, 0, 0, 0)',
-          colorFill: '#ffffff',
+          colorBorder: '#000000',
+          colorFill: '#000000',
           colorFillSecondary: '#000000',
           colorPrimary: 'rgba(0, 0, 0, 0)',
           colorSplit: 'rgba(0, 0, 0, 0)',

@@ -1,4 +1,6 @@
 // import { Cal } from '@/components/blocks/Calendar'
+import { ConfigProvider } from 'antd'
+
 import { CalendarBlock } from '@/components/blocks/Calendar'
 import { Avatar } from '@/components/blocks/avatar'
 import { Bio } from '@/components/blocks/bio'
@@ -15,7 +17,6 @@ import { Tags } from '@/components/blocks/tags'
 import { ThemeToggle } from '@/components/blocks/theme-toggle'
 import { Grid } from '@/components/grid'
 import { Header } from '@/components/header'
-import { ConfigProvider } from 'antd'
 
 // // import {today, getLocalTimeZone} from "@internationalized/date";
 // import dayjs from 'dayjs'
@@ -29,10 +30,22 @@ export default function Layout() {
         components: {
           Calendar: {
             /* 这里是你的组件 token */
-            fullBg: 'rgba(0, 0, 0, 0.06)',
-            fullPanelBg: 'rgba(0, 0, 0, 0.06)',
-            itemActiveBg: 'rgba(0, 0, 0, 0.06)',
+            fullBg: 'rgba(0, 0, 0, 0.)',
+            fullPanelBg: 'rgba(0, 0, 0, 0)',
+            itemActiveBg: 'rgba(0, 0, 0, 0)',
+            monthControlWidth: 35,
+            yearControlWidth: 40,
           },
+        },
+        token: {
+          /* 这里是你的 token */
+          colorBgContainer: 'rgba(0, 0, 0, 0)',
+          colorFill: '#ffffff',
+          colorFillSecondary: '#000000',
+          colorPrimary: 'rgba(0, 0, 0, 0)',
+          colorSplit: 'rgba(0, 0, 0, 0)',
+          paddingSM: 6,
+          paddingXS: 4,
         },
       }}
     >

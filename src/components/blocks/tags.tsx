@@ -13,7 +13,8 @@ export const Tags = async () => {
 
   return (
     <Block
-      className='col-span-2 flex flex-col overflow-clip bg-gradient-to-l from-amber-50 to-surface dark:from-surface-1 max-lg:row-span-2 sm:col-span-3 md:col-span-2 lg:col-span-4'
+      className='col-span-2
+      flex flex-col overflow-clip  to-surface dark:from-surface-1 max-lg:row-span-2 sm:col-span-3 md:col-span-2 lg:col-span-4'
       data-type='tags'
     >
       <h2 className='mb-4 flex items-center gap-4 text-2xl text-brand'>

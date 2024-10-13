@@ -20,7 +20,8 @@ export const Header = (props: HeaderProps) => {
     >
       <Link className='justify-self-start' href='/'>
         <h1 className='text-xl font-bold tracking-tighter md:text-2xl'>
-          ZhuoQuanFan<small></small>
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
+          Jason's Blog
         </h1>
       </Link>
       <nav className='flex gap-8 max-sm:text-sm'>

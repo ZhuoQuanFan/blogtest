@@ -2,6 +2,7 @@
 import { ConfigProvider } from 'antd'
 
 import { CalendarBlock } from '@/components/blocks/Calendar'
+// import {BiggerCalendar} from "@/components/blocks/BiggerCalendar";
 import { Avatar } from '@/components/blocks/avatar'
 import { Bio } from '@/components/blocks/bio'
 import { Csdn } from '@/components/blocks/csdn'
@@ -47,6 +48,7 @@ export default function Layout() {
           colorSplit: 'rgba(0, 0, 0, 0)',
           paddingSM: 6,
           paddingXS: 4,
+          screenXS: 413,
         },
       }}
     >
@@ -66,8 +68,10 @@ export default function Layout() {
           <Posts />
           <Github />
           <Csdn />
+          {/*<BiggerCalendar />*/}
           {/*<Juejin />*/}
         </Grid>
+        {/*<BiggerCalendar />*/}
       </>
     </ConfigProvider>
   )

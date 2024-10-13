@@ -15,6 +15,7 @@ const MotionWave = dynamic(
 interface ExploreMoreProps {
   href: string
 }
+
 export const ExploreMore = (props: ExploreMoreProps) => {
   const { href } = props
   const [enter, setEnter] = useState(false)

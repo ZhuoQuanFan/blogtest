@@ -41,5 +41,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.6,
       url: url('resume'),
     },
+    {
+      priority: 0.6,
+      url: url('/calendar'),
+    },
   ].map(item => ({ ...item, changeFrequency: 'weekly', lastModified }))
 }

@@ -34,8 +34,8 @@ export default function Layout() {
             fullBg: 'rgba(0, 0, 0, 0.)',
             fullPanelBg: 'rgba(0, 0, 0, 0)',
             itemActiveBg: 'rgba(0, 0, 0, 0)',
-            monthControlWidth: 35,
-            yearControlWidth: 40,
+            monthControlWidth: 17,
+            yearControlWidth: 20,
           },
         },
         token: {
@@ -48,7 +48,7 @@ export default function Layout() {
           colorSplit: 'rgba(0, 0, 0, 0)',
           paddingSM: 6,
           paddingXS: 4,
-          screenXS: 413,
+          screenXS: 30,
         },
       }}
     >

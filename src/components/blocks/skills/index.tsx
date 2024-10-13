@@ -15,14 +15,15 @@ import reactSvg from '@/images/logo/react.svg'
 // import reactNativeSvg from '@/images/logo/react-native.svg'
 // import swiftSvg from '@/images/logo/swift.svg'
 // import tailwindCSSSvg from '@/images/logo/tailwind-css.svg'
-// import typeScriptSvg from '@/images/logo/typescript.svg'
-import vueSvg from '@/images/logo/vue.svg'
 // import webpackSvg from '@/images/logo/webpack.svg'
 import javaSvg from '@/images/logo/java-svgrepo-com.svg'
-import PythonSvg from '@/images/logo/python-svgrepo-com.svg'
 import SqlSvg from '@/images/logo/mysql-svgrepo-com (1).svg'
-import SpringSvg from '@/images/logo/spring-svgrepo-com.svg'
 import NginxSvg from '@/images/logo/nginx-svgrepo-com.svg'
+import PythonSvg from '@/images/logo/python-svgrepo-com.svg'
+import SpringSvg from '@/images/logo/spring-svgrepo-com.svg'
+// import typeScriptSvg from '@/images/logo/typescript.svg'
+import vueSvg from '@/images/logo/vue.svg'
+
 const Galton = dynamic(() => import('./galton').then(module => module.Galton), {
   ssr: false,
 })
@@ -38,7 +39,7 @@ const images: StaticImageData[] = [
   PythonSvg,
   SqlSvg,
   SpringSvg,
-  NginxSvg
+  NginxSvg,
 ]
 export const Skills = () => {
   return (

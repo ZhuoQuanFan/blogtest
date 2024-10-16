@@ -1,0 +1,7 @@
+{
+  "6": "The user shares a detailed guide on deploying a blog website, including one-click deployment, discussion setup, source site editing, domain name binding, Github webhook actions and activating comments with Giscus.",
+  "7": "The user has successfully deployed a chatGPT on WeChat and tested it in private and group chat settings.",
+  "8": "The user discusses deploying a GPT on a website, mentioning potential issues for users in China and the possible solution of using transit tokens.",
+  "9": "The user provided detailed notes on Stanford's online course about Building Large Language Models including course structure, architecture, training algorithm & loss, evaluation, data, and scaling laws.",
+  "10": "The author discusses encountering problems due to a Node version update and offers temporary and long-term solutions involving various settings in the package.json file."
+}

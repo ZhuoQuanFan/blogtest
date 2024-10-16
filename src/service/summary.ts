@@ -11,7 +11,7 @@ export async function createSummary(content: string) {
   async function query(time: number) {
     await sleep(time)
     const openai = new OpenAI({
-      baseURL: 'https://api.wlai.vip/v1/',
+      baseURL: 'https://api.wlai.vip/v1',
     })
 
     const completion = await openai.chat.completions.create({

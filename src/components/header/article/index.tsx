@@ -20,24 +20,27 @@ export const Header = (props: HeaderProps) => {
     >
       <script>
         {`
-              MathJax = {
+                MathJax.Hub.Config = ({
                 tex2jax:{
-                    inlineMath: [['$', '$'], ['\\(', '\\)']],
-                    processEscapes: true
-                },
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                processEscapes: true
+            },
                 tex: {
-                  displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']]
-                },
+                displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']]
+            },
                 svg: {
-                  fontCache: 'global'
-                }
-              };
+                fontCache: 'global'
+            }
+            })
             `}
+        ;
       </script>
       <script
         async
-        src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js'
+        src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
+        type='text/javascript'
       />
+
       <Link className='justify-self-start' href='/'>
         <h1 className='text-xl font-bold tracking-tighter md:text-2xl'>
           {/* eslint-disable-next-line react/no-unescaped-entities */}

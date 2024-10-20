@@ -2,6 +2,8 @@ import { clsx } from 'clsx'
 
 import Link from 'next/link'
 
+// import {useEffect} from "react";
+
 import { FontToggle } from './font-toggle'
 import { ThemeToggle } from './theme-toggle'
 
@@ -18,8 +20,9 @@ export const Header = (props: HeaderProps) => {
         sticky && 'sticky top-0 z-10 bg-white/5 backdrop-blur dark:bg-black/5',
       )}
     >
-      <script>
-        {`
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
               MathJax = {
                 tex: {
                   inlineMath: [['$', '$'], ['\\(', '\\)']],
@@ -29,8 +32,9 @@ export const Header = (props: HeaderProps) => {
                   fontCache: 'global'
                 }
               };
-            `}
-      </script>
+            `,
+        }}
+      />
       <script
         async
         id='MathJax-Script'

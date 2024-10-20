@@ -18,6 +18,23 @@ export const Header = (props: HeaderProps) => {
         sticky && 'sticky top-0 z-10 bg-white/5 backdrop-blur dark:bg-black/5',
       )}
     >
+      <script>
+        {`
+              MathJax = {
+                tex: {
+                  inlineMath: [['$', '$'], ['\\(', '\\)']],
+                  displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']]
+                },
+                svg: {
+                  fontCache: 'global'
+                }
+              };
+            `}
+      </script>
+      <script
+        async
+        src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js'
+      />
       <Link className='justify-self-start' href='/'>
         <h1 className='text-xl font-bold tracking-tighter md:text-2xl'>
           {/* eslint-disable-next-line react/no-unescaped-entities */}

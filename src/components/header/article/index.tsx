@@ -21,8 +21,11 @@ export const Header = (props: HeaderProps) => {
       <script>
         {`
               MathJax = {
+                tex2jax:{
+                    inlineMath: [['$', '$'], ['\\(', '\\)']],
+                    processEscapes: true
+                },
                 tex: {
-                  inlineMath: [['$', '$'], ['\\(', '\\)']],
                   displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']]
                 },
                 svg: {

@@ -21,11 +21,8 @@ export const Header = (props: HeaderProps) => {
       <script>
         {`
               MathJax = {
-                tex2jax:{
-                    inlineMath: [['$', '$'], ['\\(', '\\)']],
-                    processEscapes: true
-                },
                 tex: {
+                  inlineMath: [['$', '$'], ['\\(', '\\)']],
                   displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']]
                 },
                 svg: {
@@ -35,6 +32,8 @@ export const Header = (props: HeaderProps) => {
             `}
       </script>
       <script
+        async
+        id='MathJax-Script'
         src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js'
       />
       <Link className='justify-self-start' href='/'>

@@ -6,6 +6,6 @@
   "10": "The author discusses encountering problems due to a Node version update and offers temporary and long-term solutions involving various settings in the package.json file.",
   "12": "The user discussed their journey of deploying an educational AI-assisted app, including issues with server settings, worker timeouts, and potential solutions like server upgrade, cache cleanup, and using gevent with Gunicorn.",
   "13": " A collection of my monthly report.",
-  "14": "The text discusses Shepard's interpolation algorithm, Bridson's fast Poisson Disk sampling algorithm, Gaussian Kernel Sampling method, and the HyperINR system. Each method's functions and applications are explained.",
+  "14": "Shepard's interpolation algorithm, Bridson's fast Poisson Disk sampling algorithm, Gaussian Kernel Sampling method, and the HyperINR system",
   "15": "he title and summary of a recently posted article as an overview of the article."
 }

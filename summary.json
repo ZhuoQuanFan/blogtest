@@ -7,5 +7,10 @@
   "12": "The user discussed their journey of deploying an educational AI-assisted app, including issues with server settings, worker timeouts, and potential solutions like server upgrade, cache cleanup, and using gevent with Gunicorn.",
   "13": " A collection of my monthly report.",
   "14": "Shepard's interpolation algorithm, Bridson's fast Poisson Disk sampling algorithm, Gaussian Kernel Sampling method, and the HyperINR system",
-  "15": "he title and summary of a recently posted article as an overview of the article."
+  "15": "he title and summary of a recently posted article as an overview of the article.",
+  "20": "The article explains Docker issues with the default latest tag and the importance of specifying exact tags when pulling images. It also covers setting up Docker mirrors for faster image downloads and provides instructions on installing Docker on CentOS, removing old versions, and configuring user permissions for Docker usage.",
+  "19": "The article explains how to speed up Git uploads by using a mirror to replace GitHub URLs. It also covers viewing and reverting Git configurations and setting up a network proxy for improved performance.",
+  "18": "The article covers common Linux troubleshooting issues such as system recovery, user permissions, SSH keys, remote development with VS Code, software dependencies, and package management.",
+  "17": "Generate a new SSH key with ssh-keygen, copy the public key, then add it to GitHub under SSH settings by pasting the key in the \"Key\" field.",
+  "16": "The issue is caused by insufficient root partition space for Docker. Solutions include cleaning Docker cache, moving data storage to /home, or expanding the root partition."
 }
